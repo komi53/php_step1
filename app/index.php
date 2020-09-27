@@ -29,3 +29,12 @@
 		$a1[0] = "one?";
 		print_r($a1);
 	?>
+	<br>
+	<?php
+		$hash = array("one" => "いち", "two" => "に", "three" => "さん");
+		$hash["four"] = "し";
+		print_r($hash);
+		foreach($hash as $key => $val)
+			print("$key is $val. ");
+	?>
+	<br>
